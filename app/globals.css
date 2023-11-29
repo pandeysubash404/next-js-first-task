@@ -18,10 +18,15 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  padding: 1rem;
 }
+
+.flexibleDiv {
+  width: 95%; /* Adjust based on your requirement */
+  height: fit-content; /* Adjust based on your requirement */
+  padding: 10px; /* Adjust based on your requirement */
+  margin: 10px; /* Adjust based on your requirement */
+  border: 1px solid grey;
+  background-color: white; /* Remove this line if you want no background */
+}
+
